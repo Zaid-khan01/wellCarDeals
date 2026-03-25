@@ -1,6 +1,7 @@
 import React from "react";
 import { Facebook, Instagram, Mail, Phone, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo1.png";
 
 const Footer = () => {
     return (
@@ -13,7 +14,7 @@ const Footer = () => {
                     {/* BRAND */}
                     <div>
                         <h3 >
-                            <img src="/src/assets/logo1.png" alt="AuctionHub Logo" />
+                            <img src={logo} alt="AuctionHub Logo" />
                         </h3>
 
                         <p className="mt-4 text-sm text-gray-400 leading-relaxed">
