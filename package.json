@@ -1,8 +1,10 @@
 {
   "name": "auction-website",
+  "homepage": "https://wellcardeals.com",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
