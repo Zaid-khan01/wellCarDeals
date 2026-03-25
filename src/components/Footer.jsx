@@ -105,7 +105,7 @@ const Footer = () => {
                 {/* DIVIDER */}
                 <div className="border-t border-white/10 mt-16 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
 
-                    <p>© {new Date().getFullYear()} AuctionHub. All rights reserved.</p>
+                    <p>© {new Date().getFullYear()} WellCarDeals. All rights reserved.</p>
 
                     <div className="flex gap-6 mt-4 md:mt-0">
                         <span className="hover:text-white cursor-pointer">Privacy Policy</span>
